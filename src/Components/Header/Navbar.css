@@ -1,0 +1,167 @@
+.colr{
+    width: 100%;
+    height: 2vh;
+    background-color:rgb(216, 113, 11) ;
+}
+.navbar{
+    position: relative;
+}
+/* ---------UPPER NAVBAR---------- */
+.upper-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003471;
+    padding: 0.1rem 1rem;
+    margin-bottom: 0;
+}
+.logo h1{
+    color: white;
+}
+.logo h1:hover{
+    color: black;
+}
+.logo h1>span{
+    color:rgb(216, 113, 11) ;
+}
+.upper-navbar .nav>ul{
+    display: flex;
+    gap: 2rem;
+}
+.upper-navbar .nav ul>li{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+.upper-navbar .nav ul span>i {
+    font-size: 16px;
+}
+.upper-navbar .nav ul span {
+    padding:4px 10px;
+    background-color:#159ec0 ;
+    border-radius: 100%;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.upper-navbar .nav ul span:hover {
+    background-color:rgb(216, 113, 11) ;
+
+}
+.upper-navbar .icons>ul{
+    display: flex;
+    gap: 0.8rem;
+}
+.upper-navbar .icons ul>li{
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    background-color:#159ec0 ;
+    padding:4px 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+
+}
+.upper-navbar .icons ul>li:hover{
+    background-color:rgb(216, 113, 11) ;
+}
+/* ---------LOWER NAVBAR---------- */
+.lower-navbar{
+    margin-top:-16px ;
+    background-color: rgba(0,0,0,.8);
+}
+.lower-navbar>ul{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.lower-navbar ul>li{
+    list-style: none;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+.lower-navbar ul .li::after{
+    content: '';
+    background-color:rgb(216, 113, 11) ;
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.4s ease;
+}
+.lower-navbar ul .li:hover::after{
+    width: 100%;
+}
+.lower-navbar ul a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+.lower-navbar ul a:hover{
+    color:rgb(216, 113, 11) ;
+}
+.user{
+    padding: 5px;
+}
+.srh{
+    color: white;
+}
+.bar{
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+
+/* ------------------Responsive Navbar------------- */
+
+@media only screen and (max-width: 1024px) {
+    .upper-navbar .nav>ul{
+        gap: 1rem;
+    }
+    .upper-navbar .nav ul>li{
+        font-size: 17px;
+    }
+    .upper-navbar .icons>ul{
+        gap: 0.5rem;
+    }
+    .lower-navbar>ul{
+        gap: 1.5rem;
+    }
+  }
+  @media only screen and (max-width: 945px) {
+    .nav{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    .upper-navbar{
+        position: relative;
+    }
+    .lower-navbar{
+        background-color: #003471;
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        z-index: 999999;
+    }
+    .lower-navbar ul{
+        display: flex;
+        flex-direction: column; 
+    }
+    .open{
+       display: block;
+    }
+  }
+
+
+
+
+

@@ -1,0 +1,131 @@
+.contact{
+    padding: 0 0 2rem 0;
+}
+.contact>h1{
+    text-align: center;
+}
+.contact h1>span{
+    color: rgb(216, 113, 11);
+}
+.main-contact{
+    padding: 10px 20px;
+    display: flex;
+} 
+.contact-l{
+    width: 100%;
+    padding: 2rem;
+    background-color:#003471;
+}
+iframe{
+    width: 600px;
+    height: 500px;
+}
+.contact-l .text{
+    display: block;
+    width: 92%;
+    padding: 16px 20px;
+    margin: 1rem 0;   
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.contact-l  ::placeholder{
+    color: rgb(70, 70, 70);
+}
+.contact-l .number{
+    padding:16px 20px ;
+    font-size: 16px;
+    width: 44.9%;
+    border: none;
+    outline: none;
+}
+.space{
+    margin-left: 9px;
+}
+.contact-l .messages{
+    width: 92%;
+    padding: 16px 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.contact-l button{
+    background-color: rgb(216, 113, 11);
+    color: white;
+    padding: 13px 45px;
+    font-size: 17px;
+    border-radius: 2%;
+    outline: none;
+    border: 2px solid rgb(216, 113, 11);
+    margin-top: 12px;
+    transition: all 0.4s ease;
+}
+.contact-l button:hover{
+    background: transparent;
+    border: 2px solid rgb(216, 113, 11);
+    color:rgb(216, 113, 11) ;
+}
+@media only screen and (max-width: 1024px) {
+    .main-contact{
+        padding: 10px 7rem;
+        
+        
+    }
+    .contact-l{
+        width: 50%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    iframe{
+        width: 260px;
+        height: 560px;
+    }
+    .contact-l .text{
+      
+        padding: 15px 20px;
+        margin: 0.8rem 0; 
+        width: 90%;  
+        
+    }
+    .contact-l .messages{
+        width: 90%;  
+        padding: 15px 20px;
+        
+    }
+    .contact-l .number-1{
+        width: 90%;
+        margin-bottom: 10px;
+        
+    }
+    .contact-l .number2{
+        width: 100%;
+        margin: 0;
+    }
+    
+    
+   
+}
+@media only screen and (max-width: 820px) {
+    .main-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 10px 2rem;
+
+
+    }
+    .contact-l{
+        width: 89%;;
+    }
+    .contact-r{
+        width: 100%;
+    }
+    .contact-r iframe{
+        width: 100%;
+    }
+
+}

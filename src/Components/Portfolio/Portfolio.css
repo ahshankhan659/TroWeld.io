@@ -1,0 +1,65 @@
+.portfolio{
+    padding: 1rem 0rem;
+    background-color: #003471;
+}
+.portfolio h1{
+    color: white;
+    font-size: 36px;
+}
+.bg-img{
+    width: 400px;
+
+}
+.bg-img img{
+    width: 100%;
+    position: relative;
+    transition: all 0.4s ease;
+
+}
+.bg-img:hover img{
+    transform: scale(1);
+
+}
+.bg-img .hover-img {
+    position: absolute;
+    top: 0%;
+    left: 13%;
+    width: 0%;
+    height: 0vh;
+    background-color: rgb(251, 251, 251, 0.7);
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+.bg-img:hover .hover-img{
+    width: 74%;
+    height: 45vh;
+    opacity: 1;
+}
+
+.bg-img .w-img button{
+    padding: 13px 35px;
+    outline: none;
+    border: 1px solid  rgb(216, 113, 11);
+    background-color: rgb(216, 113, 11) ;
+    color: white;
+    transition: all 0.4s ease;
+}
+.bg-img .w-img button:hover{
+    background: transparent;
+    border: 1px solid  rgb(216, 113, 11);
+    color: rgb(216, 113, 11);
+
+}
+@media only screen and (max-width: 1024px) {
+    .portfolio h1{
+        font-size: 32px;
+    }
+    .bg-img{
+        width: 400px;
+    }
+}
+

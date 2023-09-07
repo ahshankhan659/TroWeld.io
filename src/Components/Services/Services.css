@@ -1,0 +1,91 @@
+.services {
+    padding: 2rem 0;
+}
+
+.services h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.services button {
+    /* margin: 13px 0 20px 0; */
+    margin: 20px auto 10px;
+    padding: 13px 45px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    outline: none;
+    background-color:rgb(216, 113, 11) ;
+    color: white;
+    border: 1px solid rgb(216, 113, 11);
+    transition: all 0.4s ease;
+
+}
+.services button:hover{
+    background: transparent;
+    border: 1px solid rgb(216, 113, 11);
+    color: rgb(216, 113, 11);
+
+}
+
+
+.services h1>span {
+    color: rgb(216, 113, 11);
+}
+
+.main-services {
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.main-services-detail {
+    width: 320px;
+    height: 250px;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    margin: 1rem 0;
+    padding: 0.4rem 1rem 1rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.2s ease;
+}
+
+.main-services-detail img {
+    padding: 20px 0 0px 0;
+    transition: filter 0.2s ease;
+
+}
+
+.main-services-detail:hover img {
+    filter:  invert(100%);
+    /* Reduce brightness on hover to change image color */
+}
+
+.main-services-detail p {
+    font-size: 18px;
+    font-style: bold;
+    padding-bottom: 1rem;
+
+}
+
+.main-services-detail:hover {
+    background: rgb(216, 113, 11);
+    color: white;
+}
+@media only screen and (max-width: 1024px) {
+    .main-services {
+        padding: 1rem 1rem;
+        
+    }
+    .main-services-detail{
+        width: 300px;
+    
+    } 
+}
