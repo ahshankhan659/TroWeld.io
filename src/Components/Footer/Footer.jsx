@@ -36,10 +36,10 @@ function Footer() {
             </div>
         </div>
         <div className="bottom-footer">
-            <span><i class="fa-solid fa-location-dot"></i><p> Location</p></span>
-            <span><i class="fa-solid fa-phone"></i><p> Call +92 3374759123</p></span>
-            <span><i class="fa-solid fa-envelope"></i><p> main@domain.com</p></span>
-            <span><i class="fa-brands fa-github"></i><p> main@domain.com</p></span>
+            <span><i class="fa-solid fa-location-dot"></i><p> Defence View Phase-2</p></span>
+            <span><i class="fa-solid fa-phone"></i><p> Call +92 3136745659</p></span>
+            <span><i class="fa-solid fa-envelope"></i><p> akahshankhan69@gmail.com</p></span>
+            <span><i class="fa-brands fa-github"></i><p> ahshankhan659.com</p></span>
             
         </div>
         <p className='copy'>Copyright @ 2022 by Ahshan Khan All Right Reserved.</p>
