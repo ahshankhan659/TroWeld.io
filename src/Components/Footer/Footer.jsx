@@ -35,12 +35,14 @@ function Footer() {
                 <p>Lorem ipsum dolor sit amet <br/> consectetur <br/> adipisicing elit.</p>
             </div>
         </div>
+        <div className="bottom">
         <div className="bottom-footer">
             <span><i class="fa-solid fa-location-dot"></i><p> Defence View Phase-2</p></span>
             <span><i class="fa-solid fa-phone"></i><p> Call +92 3136745659</p></span>
             <span><i class="fa-solid fa-envelope"></i><p> akahshankhan69@gmail.com</p></span>
             <span><i class="fa-brands fa-github"></i><p> ahshankhan659.com</p></span>
             
+        </div>
         </div>
         <p className='copy'>Copyright @ 2022 by Ahshan Khan All Right Reserved.</p>
     </div>

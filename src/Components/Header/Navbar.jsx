@@ -22,9 +22,9 @@ function Navbar() {
                     </div>
                     <div className="nav">
                         <ul>
-                            <li><span><i class="fa-solid fa-location-dot"></i></span>Location</li>
-                            <li><span><i class="fa-solid fa-phone"></i></span>Call:01 123445678990</li>
-                            <li><span><i class="fa-solid fa-envelope"></i></span>ak819@gmail.com</li>
+                            <li><span><i class="fa-solid fa-location-dot"></i></span>Defence View Phase-2</li>
+                            <li><span><i class="fa-solid fa-phone"></i></span>Call:0313-6745659</li>
+                            <li><span><i class="fa-solid fa-envelope"></i></span>akahshankhan659</li>
                         </ul>
                     </div>
                     <div className="icons">
